@@ -31,7 +31,7 @@ def main():
     spec = ttk.Combobox(root, values=["Tank", "DPS", "Healer"])
     spec.pack(pady=10)
 
-    label_race = tk.Label(root, text="Race")
+    label_race = tk.Label(root, text="Race") # O rodrigo tem obesidade morbida
     label_race.pack(pady=10)
     races = [
         "Human", "Dwarf", "Night Elf", "Gnome", "Orc", "Undead", "Tauren", "Troll", "Blood Elf", "Draenei",
